@@ -1,0 +1,263 @@
+LOCUS       1_cluster_51            5301 bp    DNA     linear   UNK 07-NOV-2024
+DEFINITION  1 Streptomyces avidinii strain DSM40526, complete genome.
+ACCESSION   1_cluster_51
+VERSION     1_cluster_51
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+REFERENCE   1
+  AUTHORS   Laura M Carroll, Martin Larralde, Jonas Simon Fleck, Ruby
+            Ponnudurai, Alessio Milanese, Elisa Cappio Barazzone, Georg Zeller
+  TITLE     Accurate de novo identification of biosynthetic gene clusters with
+            GECCO
+  JOURNAL   bioRxiv (2021.05.03.442509)
+  REMARK    doi:10.1101/2021.05.03.442509
+COMMENT     ##GECCO-Data-START##
+            version                :: GECCO v0.9.10
+            creation_date          :: 2024-11-07T14:10:28.911998
+            cluster_type           :: Unknown
+            alkaloid_probability   :: 0.035
+            nrp_probability        :: 0.155
+            polyketide_probability :: 0.143
+            ripp_probability       :: 0.067
+            saccharide_probability :: 0.180
+            terpene_probability    :: 0.034
+            ##GECCO-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             1..1644
+                     /inference="ab initio prediction:Pyrodigal:3.5.2"
+                     /transl_table=11
+                     /locus_tag="1_7071"
+                     /translation="MYNEETETVTETALAATTAATTVATSADATATAGTAGETDTVTTV
+                     AAPGAEGGERLVAGRYRLLSRLGEGGMGTVWRARDETLHREVAVKEVRAPAGLRAGDIA
+                     RMYSRLEREAWAAARIPDRNVVTVHDVVMEDDRPWIVMELIRGQSLADLLRAQGPLTPR
+                     YAAHIGAEVLSALRAAHAVGVEHRDVKPANVLLAEDGRVVLSDFGIAMVEGSTALTMTG
+                     EVVGSPEYLPPERALGRPSGPESDLWSLGVLLYAAVEGVSPFRQDTALSTLRAVVDEEP
+                     PALTRAGPLAPVIAGLLRKEPAERTAATEVAAALRDIAHEPDATTAASRILPTPAQPAA
+                     AAVSLPAPAPAPAPAPEVAVTSASASTAPAAAAAPAAAAPAVPSVIEPAPGPPADAAPR
+                     RTRRTAVFVAAGAAACVLIAGGIAYAFTGNDADSAPGSGVRVSVAGANTTYTGSCPTPE
+                     GRAPAFTATFTASEPTLVSYRWVSGDGSVVDPHWRTMSIGDKANPTGHDTVRLTTYTKA
+                     GTLTTGMAVELQSPTRTLSNPVPFSITCTG*"
+                     /function="catalytic activity"
+                     /colour="129 14 21"
+                     /ApEinfo_fwdcolor="#810e15"
+                     /ApEinfo_revcolor="#810e15"
+     misc_feature    187..843
+                     /inference="protein motif"
+                     /db_xref="PFAM:PF07714"
+                     /db_xref="InterPro:IPR001245"
+                     /db_xref="GO:0004672"
+                     /db_xref="GO:0006468"
+                     /note="e-value: 5.3165611540975204e-24"
+                     /note="p-value: 1.922111769377267e-27"
+                     /function="Serine-threonine/tyrosine-protein kinase,
+                     catalytic domain"
+                     /standard_name="PF07714"
+     CDS             1663..1899
+                     /inference="ab initio prediction:Pyrodigal:3.5.2"
+                     /transl_table=11
+                     /locus_tag="1_7072"
+                     /translation="MCAAFVVLARPLAARGHRGWAVASRCVPVGVLAGFAGSAASVLAF
+                     TAGAGLGLCWLAAVTARLAADPAMPPTRRARAS*"
+                     /function="unknown"
+                     /colour="128 128 128"
+                     /ApEinfo_fwdcolor="#808080"
+                     /ApEinfo_revcolor="#808080"
+     CDS             complement(1926..3242)
+                     /inference="ab initio prediction:Pyrodigal:3.5.2"
+                     /transl_table=11
+                     /locus_tag="1_7073"
+                     /translation="MGSGQGPGHRPGHRPGHGPGRRWGHRPGRRLGHRFGWLWAAYGTS
+                     ALGTWLAFGAFPLIAVQVLHAGPAEVAALSAAGAAVGAAVAVPLGPWVEFRRKRPVLIA
+                     MDLARCAALLTIPVAFVLGALTYVQLLLVSVVVAAGDITFRAASGAYLKALVPGEDLLV
+                     ANARFEATAWTTTIIGPPLGGAAVGLLGPVATVAADAVSHLLSALGIRATGGPEPQPEH
+                     RRARGLRAGDLLDGWRYLLADASLRPLFFNTVLFNGLLMASQPLLAVLMLGRLGFAPWQ
+                     YGLAFAAPSIGGLLGARLARPLAARFGQREILVAAGTLRAIWPIGLAFVGPGTGGLLLV
+                     IGVEFGLILCCGVFNPVHATYRLERTANDRVTRTLSAWAVTTKASTALLTAVWGVLGGL
+                     LGPRTAIGLLGALLLATPLLLPHRTPARPSEPEPAPSRT*"
+                     /function="transporter activity"
+                     /colour="100 149 237"
+                     /ApEinfo_fwdcolor="#6495ed"
+                     /ApEinfo_revcolor="#6495ed"
+     misc_feature    1968..3140
+                     /inference="protein motif"
+                     /db_xref="PFAM:PF05977"
+                     /db_xref="InterPro:IPR010290"
+                     /note="e-value: 3.549000372674587e-16"
+                     /note="p-value: 1.2830803950378116e-19"
+                     /function="Transmembrane secretion effector"
+                     /standard_name="PF05977"
+     misc_feature    2217..3131
+                     /inference="protein motif"
+                     /db_xref="PFAM:PF07690"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="GO:0022857"
+                     /db_xref="GO:0055085"
+                     /note="e-value: 1.722815091061393e-21"
+                     /note="p-value: 6.228543351631935e-25"
+                     /function="Major facilitator superfamily"
+                     /standard_name="PF07690"
+     misc_feature    1938..2435
+                     /inference="protein motif"
+                     /db_xref="PFAM:PF07690"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="GO:0022857"
+                     /db_xref="GO:0055085"
+                     /note="e-value: 7.31721669296939e-09"
+                     /note="p-value: 2.6454145672340527e-12"
+                     /function="Major facilitator superfamily"
+                     /standard_name="PF07690"
+     CDS             3384..4349
+                     /inference="ab initio prediction:Pyrodigal:3.5.2"
+                     /transl_table=11
+                     /locus_tag="1_7074"
+                     /translation="MDLDTVRTFVVAADAGQFQEAATELAVTQQAVSKRIATLERNLGV
+                     RLFTRTPRGAELTIDGQAFLPHARELLRVAERAVTSVRAGRRPLRVDVIASRVAPSGLM
+                     RGFHRAHPEIDLDVVMLLDIETAVAAIRSGEIDASFRAVAAPGRPLPDDIRSVRVLDES
+                     LQLLTGPAHALAGARSVTVARLAGHRIWMPGIVPGTEWGAYYDELVAEFGLTIEATGPN
+                     FGSDALLDTIADTPALATFMGEHTRLVWPAGHGLRRIPVTDPTPVYPHSLLWHRDNAHP
+                     ALAALRAHLAAAGDDRDAAGTWAPSWAVPPDGAPGHLPAR*"
+                     /function="transcription regulator activity"
+                     /colour="46 139 86"
+                     /ApEinfo_fwdcolor="#2e8b56"
+                     /ApEinfo_revcolor="#2e8b56"
+     misc_feature    3393..3569
+                     /inference="protein motif"
+                     /db_xref="PFAM:PF00126"
+                     /db_xref="InterPro:IPR000847"
+                     /db_xref="GO:0003700"
+                     /db_xref="GO:0006355"
+                     /note="e-value: 1.5684326293595515e-18"
+                     /note="p-value: 5.670399961531278e-22"
+                     /function="Transcription regulator HTH, LysR"
+                     /standard_name="PF00126"
+     misc_feature    3687..4259
+                     /inference="protein motif"
+                     /db_xref="PFAM:PF03466"
+                     /db_xref="InterPro:IPR005119"
+                     /note="e-value: 4.240733991066742e-16"
+                     /note="p-value: 1.5331648557725026e-19"
+                     /function="LysR, substrate-binding"
+                     /standard_name="PF03466"
+     CDS             complement(4389..4949)
+                     /inference="ab initio prediction:Pyrodigal:3.5.2"
+                     /transl_table=11
+                     /locus_tag="1_7075"
+                     /translation="MEFFCYHRDRTGSLPLRRELLERHWSYMDQYEKELIARGPTFVPG
+                     GDAPSGSVHIVDVPDPAAARAFAFDEPGYQAGVYRDVLLLRWRNMLGRTMWDFPGGRTG
+                     GNRYLVLGLGAGPATAATAALALPPGEDELIAYGPLLSDDGSAWLGTAALVRAPDAATA
+                     RAVLTVDACADVEVHDWEFGGRR*"
+                     /function="unknown"
+                     /colour="128 128 128"
+                     /ApEinfo_fwdcolor="#808080"
+                     /ApEinfo_revcolor="#808080"
+     CDS             5113..5301
+                     /inference="ab initio prediction:Pyrodigal:3.5.2"
+                     /transl_table=11
+                     /locus_tag="1_7076"
+                     /translation="MSIENPSGKRAQEMRDKAQELEQAAQHATDPAEQQRLTRKALHIR
+                     EKSEQMNGPGAGTMDPM*"
+                     /function="unknown"
+                     /colour="128 128 128"
+                     /ApEinfo_fwdcolor="#808080"
+                     /ApEinfo_revcolor="#808080"
+     misc_feature    5113..5298
+                     /inference="protein motif"
+                     /db_xref="PFAM:PF19908"
+                     /db_xref="InterPro:IPR045961"
+                     /note="e-value: 1.1377808191122701e-25"
+                     /note="p-value: 4.113451985221512e-29"
+                     /function="Protein of unknown function DUF6381"
+                     /standard_name="PF19908"
+ORIGIN
+        1 atgtacaacg aggaaaccga gaccgtgacg gagaccgcac ttgcggccac cactgcggcc
+       61 actaccgtgg cgaccagcgc ggatgccacc gccaccgccg gtacggccgg ggaaacggac
+      121 acggtcacca ccgtcgccgc gccgggagcg gagggcgggg aacggctcgt cgcgggccgc
+      181 taccggctgc tgtccaggct cggcgaaggc gggatgggca cggtgtggcg ggcccgggac
+      241 gagaccctgc accgggaggt cgccgtcaag gaggtgcggg ccccggccgg actgcgggcc
+      301 ggtgacattg cgcggatgta cagccgactg gagcgggagg cgtgggcggc agcccgaata
+      361 cccgaccgca atgtggtcac ggtccatgac gtggtcatgg aggacgaccg gccctggatc
+      421 gtgatggaac tgatccgcgg gcagtcgctg gccgacctgc tgcgggcgca ggggccgctc
+      481 accccgcggt acgccgcgca catcggcgcg gaagtgctga gcgcactgcg cgccgcgcac
+      541 gccgtcggtg tggagcaccg ggacgtgaag ccggcgaacg tgctgctcgc ggaggacgga
+      601 cgggtggtgc tcagcgactt cgggatcgcg atggtcgagg gcagcaccgc cctgacgatg
+      661 accggcgaag tggtcggttc ccccgagtac ctgccgccgg agcgggcgct gggccgcccc
+      721 tcgggccccg agtccgacct gtggtccctc ggcgtgctgc tgtacgcggc cgtggagggg
+      781 gtctccccgt tccggcagga caccgcgctg agcaccctgc gggccgtcgt ggacgaggaa
+      841 ccgccggcgc tgacccgtgc cggcccactc gcgccggtca tcgccgggct gctccgcaag
+      901 gagcccgcgg agcggaccgc cgccaccgaa gtcgccgcag ccctgcggga catcgcgcac
+      961 gaaccggatg ccacgacggc agcctcccga atcctcccga cccccgcgca gcccgccgca
+     1021 gccgcggtct ccttgcccgc ccccgccccc gcccccgccc ccgcccccga ggtggcagtc
+     1081 acctcggcat cggcatctac ggcacccgcg gcggcagcgg cgcctgcggc agcggcgccc
+     1141 gccgtgcctt cggtcatcga gcccgcgccg ggccctccgg cggatgcagc cccgcgccgc
+     1201 acgcgtcgta cggcggtctt cgtcgccgcc ggcgcggccg cctgcgtact gatcgccggt
+     1261 gggatcgcct acgcgttcac cggcaacgac gcggacagcg ctcccggttc gggcgtacgg
+     1321 gtgtcggtgg ctggcgccaa cacgacctac accggcagct gcccgacccc cgagggccgg
+     1381 gccccggcat tcaccgcgac cttcaccgcg tccgagccga cgctggtctc ctaccgctgg
+     1441 gtgtcgggcg acggctccgt ggtggatccc cactggcgca ccatgtcgat cggggacaag
+     1501 gccaacccca cgggacacga caccgtgcgc ctgacgacgt acacgaaggc aggcaccctg
+     1561 accaccggga tggccgtgga actccagagc cccacccgca ccctttccaa cccggtcccc
+     1621 ttctcgatca cctgcaccgg ctgacctgat cggctacctc gcgtgtgcgc cgccttcgtg
+     1681 gtgctggccc gcccgctggc ggcccgtggc caccggggct gggccgtcgc ctcccggtgc
+     1741 gtgcccgtcg gcgtcctggc cggattcgcg ggctccgccg catcggtcct ggccttcacc
+     1801 gccggggcgg gcctcggcct gtgctggctg gccgcggtga cggcccgact ggccgcggat
+     1861 ccggcgatgc cgccgacccg cagggcccgc gcctcgtagc cggacccctc cgcgggggcg
+     1921 gcccgtcagg tacggctcgg cgccggctcc ggctcggagg gtcgtgccgg ggtgcggtgg
+     1981 gggagcagca gcggggtcgc caggagcagg gcgccgagca ggccgatggc cgtacggggc
+     2041 ccgagcaggc cgcccagcac gccccaaacg gccgtgagca gtgcggtcga cgccttggtc
+     2101 gtcacggccc aggcggacag cgtgcgggtg acccggtcgt tcgcggtgcg ttcgaggcgg
+     2161 tacgtggcat ggacggggtt gaagaccccg cagcagagga tcagcccgaa ctcgacgccg
+     2221 atcaccagca gcagcccgcc ggtgcccggt cccacgaagg ccaggccgat cggccagatc
+     2281 gcgcgcagcg tccccgcggc gaccaggatc tcgcgctgcc cgaaccgggc ggcgagcggc
+     2341 cgggccagcc gcgctccgag cagcccgccg atcgacggcg cggcgaaggc gaggccgtac
+     2401 tgccacggcg cgaacccgag tcggccgagc atcaggacgg ccagcagtgg ctgggaggcc
+     2461 atcaacaggc cgttgaacaa aacggtgttg aagaacagcg gacgcagtga cgcgtcggcc
+     2521 aggaggtacc gccagccgtc gagcagatcc ccggcccgca ggccccgggc cctccggtgc
+     2581 tcgggctgcg gctcgggtcc gcccgtcgcg cggatgccca gggccgagag cagatgactc
+     2641 accgcgtccg ccgccacggt cgccaccggg ccgaggagcc cgaccgccgc gccgcccagc
+     2701 ggcggcccga tgatcgtggt cgtccacgcc gtggcctcga accgggcgtt ggcgacgagc
+     2761 agatcctcgc ccggcaccag cgctttcagg taggcgccgg aggcggcacg gaaggtgatg
+     2821 tcgcccgccg cgacgacgac cgacaccagc aggagctgga cgtaggtgag cgcaccgagc
+     2881 acgaacgcga cggggatcgt cagcagcgcc gcgcaccgcg ccaggtccat cgcgatcagc
+     2941 accggccgtt tccggcggaa ctccacccac ggaccgagcg gtaccgccac ggccgcgccc
+     3001 acggcggccc ccgcggcgga gagcgcggcg acctccgccg gtccggcgtg cagcacctgg
+     3061 acggcgatca gcgggaacgc gccgaaggcg agccacgtcc cgagcgcgct ggtcccgtac
+     3121 gctgcccaga gccacccgaa gcggtgcccc agacggcgcc ccgggcggtg tccccaccgg
+     3181 cgtcccggcc cgtgtcccgg cctgtgtccc ggcctgtgtc ccggtccctg tccgctcccc
+     3241 atacctgctc gacgcccctg cccgctcacg ctcctgcaca accgatccgc gatcggaatc
+     3301 atcaaagcga gcggcgcacc cagcgatcaa acaaccgcag caccatcagc cacaaccaat
+     3361 ggttgtggcc atagggtgga ggcatggacc tcgacaccgt ccggaccttc gtcgtcgccg
+     3421 ccgacgcggg gcagttccag gaggcagcca ccgagctggc ggtcacccag caggccgtct
+     3481 ccaagcgcat cgccacgctg gagcgcaacc tcggcgtgcg cctgttcacc cgtacgccgc
+     3541 gcggcgccga gctcaccatc gacgggcagg ccttcctgcc ccacgcacgc gaactgctgc
+     3601 gcgtcgccga gcgggcggtc acgtccgtgc gcgccggccg ccgcccgctg cgcgtcgacg
+     3661 tgatcgcctc gcgcgtcgcg ccttcgggcc tcatgcgcgg cttccaccgc gcccaccccg
+     3721 agatcgacct cgacgtggtc atgctgctcg acatcgagac ggccgtcgcc gcgatccggt
+     3781 caggagagat cgacgcgtcc ttccgcgccg tcgccgcgcc cggccggccc ctcccggacg
+     3841 acatccggtc cgtccgcgtc ctcgacgagt cgctccagct cctcaccggg cccgctcacg
+     3901 cacttgccgg cgcccggtcg gtgaccgtcg cccggctcgc cgggcaccgg atctggatgc
+     3961 ccgggatcgt ccccggtacc gagtggggcg cctactacga cgagctcgtc gccgagttcg
+     4021 gcctcaccat cgaggcgacc ggccccaact tcgggtccga cgcactcctc gacaccatcg
+     4081 ccgacacccc ggccctggcc accttcatgg gcgaacacac ccgcctcgtc tggcccgccg
+     4141 gccacggtct gcgccgcatc ccggtgaccg acccgacgcc ggtgtacccg cactcgctcc
+     4201 tgtggcaccg cgacaacgcg cacccggcgc tggccgctct gcgcgcccac ctcgccgccg
+     4261 caggggacga ccgcgatgcc gccgggacat gggcgccgag ctgggcggtt ccgccggatg
+     4321 gcgccccggg gcaccttccg gcacggtgac cggctgacag gccggcacgc ccacacgctg
+     4381 ccgtcacgtc accgccgtcc gccgaactcc cagtcgtgga cctcgacatc ggcacaggcg
+     4441 tccacggtca ggaccgcgcg tgccgtcgcg gcgtccggag cccggaccag cgcggccgta
+     4501 cccagccatg cgctgccgtc gtccgacaac agcgggccgt acgcgatcag ctcgtcctcg
+     4561 ccgggcggca gggcgagggc ggcggtggcg gcggtggccg gtcccgcgcc gaggccgagt
+     4621 acgaggtagc gattgccccc ggtccggcca ccgggaaagt cccacatggt gcgcccgagc
+     4681 atgttgcgcc agcggagcag gagcacatcc cggtacacgc cggcctggta gccgggctcg
+     4741 tcgaaggcga aggcacgcgc ggcagcggga tccgggacat cgacgatgtg cacgctgccg
+     4801 ctgggggcgt caccgccggg gacgaaggtc gggccccggg cgatcagttc cttctcgtac
+     4861 tggtccatgt aggaccagtg ccgttccagc agttccctgc gcagcggcag ggagccggtg
+     4921 cgatcgcggt ggtagcagaa gaattccatg atgagggact cttcccgaga gccggcggcg
+     4981 gatcaacggg ttccgttgcg cggggttcgg atgcggcccc gggagtcgac cggtagcgca
+     5041 cggtgctcct ggtgaatgcc cctcggatgt gtgggtagcc ggatacacac cagcccgacc
+     5101 gaggaggtcg acgtgagtat cgagaacccg tccggcaagc gggcccagga gatgcgggac
+     5161 aaggcccagg agctggaaca ggccgcccag cacgccaccg atccagcgga gcagcagcgg
+     5221 ctcacgagga aggcgctgca catccgtgag aagagcgagc agatgaacgg ccccggcgcc
+     5281 ggaaccatgg accccatgta g
+//
