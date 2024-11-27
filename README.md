@@ -107,8 +107,22 @@ Visualization of overlaps using dynamic plots and Venn diagrams.
 
 **S. coelicolor**
 
-Analysis and visualization of tool outputs.
+Comparison of coordinates reported by tools.
+```
+Unique regions in GECCO: 9
+Unique regions in AntiSMASH: 5
+Unique regions in DeepBGC: 166
+Intersection between GECCO and AntiSMASH: 24
+Intersection between GECCO and DeepBGC: 32
+Intersection between AntiSMASH and DeepBGC: 22
+Intersection across all three tools: 19
+```
+
+Visualization of overlaps using dynamic plots and Venn diagrams.
+
+![Data Visualization](coelicolor_coordinates.png)
 
 
+![Data Visualization](coelicolor_venn.png)
 
 
