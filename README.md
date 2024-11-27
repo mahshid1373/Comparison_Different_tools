@@ -64,6 +64,8 @@ Tested on multiple Streptomyces genomes.
 ## Results
 **Streptomyces avidinii**
 
+Comparison of coordinates reported by tools.
+
 ```
 Unique regions in GECCO: 8
 Unique regions in AntiSMASH: 2
@@ -74,18 +76,34 @@ Intersection between AntiSMASH and DeepBGC: 30
 Intersection across all three tools: 27
 ```
 
+Visualization of overlaps using dynamic plots and Venn diagrams.
 
 ![Data Visualization](avidinii_coordinates.png)
 
 
 ![Data Visualization](avidinii_venn.png)
 
-Comparison of coordinates reported by tools.
-Visualization of overlaps using dynamic plots and Venn diagrams.
+
 
 **Streptomyces ameniacus**
 
-Similar comparison and visualization steps as above.
+Comparison of coordinates reported by tools.
+```
+Unique regions in GECCO: 7
+Unique regions in AntiSMASH: 181
+Unique regions in DeepBGC: 116
+Intersection between GECCO and AntiSMASH: 0
+Intersection between GECCO and DeepBGC: 26
+Intersection between AntiSMASH and DeepBGC: 0
+Intersection across all three tools: 0
+```
+
+Visualization of overlaps using dynamic plots and Venn diagrams.
+
+![Data Visualization](ameniacus_coordinates.png)
+
+
+![Data Visualization](ameniacus_venn.png)
 
 **S. coelicolor**
 
