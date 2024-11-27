@@ -62,7 +62,7 @@ Utilizes machine learning models to classify BGCs.
 Tested on multiple Streptomyces genomes.
 
 ## Results
-**Streptomyces avidinii**
+### **Streptomyces avidinii**
 
 Comparison of coordinates reported by tools.
 
@@ -83,9 +83,9 @@ Visualization of overlaps using dynamic plots and Venn diagrams.
 
 ![Data Visualization](avidinii_venn.png)
 
+***
 
-
-**Streptomyces ameniacus**
+### **Streptomyces ameniacus**
 
 Comparison of coordinates reported by tools.
 ```
@@ -105,7 +105,9 @@ Visualization of overlaps using dynamic plots and Venn diagrams.
 
 ![Data Visualization](ameniacus_venn.png)
 
-**S. coelicolor**
+***
+
+### **S. coelicolor**
 
 Comparison of coordinates reported by tools.
 ```
