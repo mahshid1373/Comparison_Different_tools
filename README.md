@@ -6,7 +6,6 @@ This project involves a comparative analysis of different tools used for detecti
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Installation](#model-performance-comparison)
-- [Data Analysis Workflow](#time-comparison-between-models)
 - [Tools and Methods](#features)
 - [antiSMASH](#dataset)
 - [GECCO](#usage)
@@ -30,8 +29,52 @@ This notebook provides a detailed comparison of BGC detection and classification
 ## Installation
 To replicate the analysis, follow these steps:
 
-1. Clone this repository or download the $ main.ipynb $ notebook.
+1. Clone this repository or download the  `main.ipynb` notebook.
 2. Install the required dependencies using pip:
-bash
-Copy code
+```
+pip install pandas numpy matplotlib seaborn
+pip install antismash gecco deepbgc
+```
+
+3. (Optional) Set up Jupyter Notebook or JupyterLab to execute the notebook:
+```
+pip install notebook
+jupyter notebook main.ipynb
+```
+
+## Tools and Methods
+**antiSMASH**
+
+Applied to Streptomyces avidinii, Streptomyces ameniacus, and S. coelicolor.
+
+Provides detailed annotations and classifications of BGCs.
+
+**GECCO**
+
+Focuses on gene cluster detection using a rule-based approach.
+
+Analyzed for the same Streptomyces species as antiSMASH.
+
+**DeepBGC**
+
+Utilizes machine learning models to classify BGCs.
+
+Tested on multiple Streptomyces genomes.
+
+## Results
+**Streptomyces avidinii**
+
+Comparison of coordinates reported by tools.
+Visualization of overlaps using dynamic plots and Venn diagrams.
+
+**Streptomyces ameniacus**
+
+Similar comparison and visualization steps as above.
+
+**S. coelicolor**
+
+Analysis and visualization of tool outputs.
+
+
+
 
