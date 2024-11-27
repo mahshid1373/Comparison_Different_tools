@@ -75,6 +75,11 @@ Intersection across all three tools: 27
 ```
 
 
+![Data Visualization](Figures/avidinii_coordinates.png)
+
+
+![Data Visualization](Figures/avidinii_venn.png)
+
 Comparison of coordinates reported by tools.
 Visualization of overlaps using dynamic plots and Venn diagrams.
 
