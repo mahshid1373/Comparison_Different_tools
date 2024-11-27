@@ -64,6 +64,17 @@ Tested on multiple Streptomyces genomes.
 ## Results
 **Streptomyces avidinii**
 
+```
+Unique regions in GECCO: 8
+Unique regions in AntiSMASH: 2
+Unique regions in DeepBGC: 111
+Intersection between GECCO and AntiSMASH: 32
+Intersection between GECCO and DeepBGC: 34
+Intersection between AntiSMASH and DeepBGC: 30
+Intersection across all three tools: 27
+```
+
+
 Comparison of coordinates reported by tools.
 Visualization of overlaps using dynamic plots and Venn diagrams.
 
