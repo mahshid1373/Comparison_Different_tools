@@ -1,0 +1,6 @@
+# # Ignore environment files
+# .env              # Ignores all files named .env
+# deepbgc_env/             # Ignores the 'deepbgc_env/' directory and its contents
+# deepbgc/
+# protein-sequence-models/
+# *.gbk             # Ignores all files with the .gbk extension
